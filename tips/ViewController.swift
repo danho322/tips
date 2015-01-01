@@ -38,32 +38,13 @@ class ViewController: UIViewController {
         onSplitSliderValueChanged(self)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        println("view will appear")
         
         tipControl.selectedSegmentIndex = defaultIndex()
         onEditingChanged(self)
-    }
     
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
-        println("view did appear")
-    }
-    
-    override func viewWillDisappear(animated: Bool) {
-        super.viewWillDisappear(animated)
-        println("view will disappear")
-    }
-    
-    override func viewDidDisappear(animated: Bool) {
-        super.viewDidDisappear(animated)
-        println("view did disappear")
+        billField.becomeFirstResponder()
     }
     
     func defaultIndex() -> Int {

@@ -32,12 +32,11 @@ class SettingsViewController: UIViewController {
     }
     
     func indexForValue(value : Float) -> Int {
-        var index = 2
-        if (value < 0.33) {
-            index = 0
-        }
-        else if (value < 0.66) {
-            index = 1
+        var percentagesCount = Float(viewController.tipPercentages.count)
+        var index = Int(percentagesCount * value)
+        if (index >= Int(percentagesCount))
+        {
+            index = index - 1
         }
         return index
     }
