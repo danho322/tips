@@ -18,6 +18,7 @@ Walkthrough demonstrating:
 - Bill split calculation based on number of people selected
 - Settings view update updating main view
 - Default gratuity setting persisting on restart
+
 ![Video Walkthrough](tipsWalkthrough.gif)
 
 GIF Created with [LiceCap](http://www.cockos.com/licecap/).
