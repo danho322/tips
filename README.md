@@ -23,4 +23,7 @@ Walkthrough demonstrating:
 
 ![Video Walkthrough](tipsWalkthrough.gif)
 
+Notes:
+The layout is optimized for iPhone 5 dimensions, so on iPhone 6 the UI layout is not correct. 
+
 GIF Created with [LiceCap](http://www.cockos.com/licecap/).
