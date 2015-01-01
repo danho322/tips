@@ -12,6 +12,12 @@ Required stories:
 Optional stories:
 * Added a label for the split bill total, using a slider as an input for the number of people to split the bill by, from 1 - 10.
 
+Walkthrough demonstrating:
+- Addition of Settings view
+- Basic bill total calculation
+- Bill split calculation based on number of people selected
+- Settings view update updating main view
+- Default gratuity setting persisting on restart
 ![Video Walkthrough](tipsWalkthrough.gif)
 
 GIF Created with [LiceCap](http://www.cockos.com/licecap/).
